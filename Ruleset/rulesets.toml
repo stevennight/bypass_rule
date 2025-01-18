@@ -1,0 +1,221 @@
+# 本地局域网地址
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan.list"
+
+# 功能性
+# 去广告
+[[rulesets]]
+group = "⛔️ 广告拦截"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising.list"
+
+# 反劫持
+[[rulesets]]
+group = "🚫 运营劫持"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hijacking/Hijacking.list"
+
+# 隐私保护
+[[rulesets]]
+group = "🚫 运营劫持"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Privacy/Privacy.list"
+
+# 知乎广告拦截
+[[rulesets]]
+group = "⛔️ 广告拦截"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ZhihuAds/ZhihuAds.list"
+
+# AdGuardSDNSFilter
+[[rulesets]]
+group = "⛔️ 广告拦截"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
+
+# BlockHttpDNS
+[[rulesets]]
+group = "🚫 运营劫持"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list"
+
+# 下载服务
+[[rulesets]]
+group = "⬇️ 下载服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list"
+
+# PT下载
+[[rulesets]]
+group = "🅱️ BT/PT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"
+
+# 以下是具体服务
+# Netflix
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix.list"
+
+# Disney
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list"
+
+# Youtube
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
+
+# YouTubeMusic
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
+
+# AppleMusic
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleMusic/AppleMusic.list"
+
+# AppleTV
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleTV/AppleTV.list"
+
+# BiliBili
+[[rulesets]]
+group = "📽️ Bilibili"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili.list"
+
+# TVB
+[[rulesets]]
+group = "🌍 香港服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVB/TVB.list"
+
+# ViuTV
+[[rulesets]]
+group = "🌍 香港服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ViuTV/ViuTV.list"
+
+# 巴哈姆特
+[[rulesets]]
+group = "🌍 台湾服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut.list"
+
+# AbemaTV
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AbemaTV/AbemaTV.list"
+
+# Niconico
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Niconico/Niconico.list"
+
+# TVer
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.list"
+
+# HuluJP
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HuluJP/HuluJP.list"
+
+# NHK
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/stevennight/bypass_rule/refs/heads/main/Rule/Japan/nhk/nhk.list"
+
+# GitHub
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list"
+
+# OneDrive
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OneDrive/OneDrive.list"
+
+# Microsoft
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list"
+
+# Teams
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Teams/Teams.list"
+
+# MicrosoftEdge
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.list"
+
+# 必应
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list"
+
+# OpenAI
+[[rulesets]]
+group = "🌍 美国服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"
+
+# Jetbrains
+[[rulesets]]
+group = "🌍 美国服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Jetbrains/Jetbrains.list"
+
+# Meta AI
+[[rulesets]]
+group = "🌍 美国服务"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/metaAi/metaAi.list"
+
+# Copilot
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list"
+
+# OKX交易所
+[[rulesets]]
+group = "💰 海外金融服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OKX/OKX.list"
+
+# PayPal
+[[rulesets]]
+group = "💰 海外金融服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal.list"
+
+# Telegram
+[[rulesets]]
+group = "📲 电报信息"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram.list"
+
+# GlobalMedia
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+
+# ChinaMedia
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+
+# China
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China.list"
+
+# ChinaIPs
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPs/ChinaIPs.list"
+
+# 国内IP
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN"
+
+# 海外IP/域名
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list"
+
+# 全局兜底
+[[rulesets]]
+group = "🐟 漏网之鱼"
+ruleset = "[]FINAL"
