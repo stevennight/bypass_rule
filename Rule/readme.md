@@ -1,8 +1,8 @@
 # List
 
-| Global  |
-|---------|
-| Nothing |
+| Global                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Meta AI](https://github.com/stevennight/bypass_rule/tree/main/Rule/Global/metaAi)\[[.list](https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/metaAi/metaAi.list)\] |
 
 | Japan                                                                                   |
 |-----------------------------------------------------------------------------------------|
