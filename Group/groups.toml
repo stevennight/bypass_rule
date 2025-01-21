@@ -133,34 +133,34 @@ url = "http://www.gstatic.com/generate_204"
 [[custom_groups]]
 name = "香港"
 type = "select"
-rule = ["【🇭🇰HK】|香港"]
+rule = ["^(【🇭🇰HK】|香港)"]
 
 [[custom_groups]]
 name = "台湾"
 type = "select"
-rule = ["【🇹🇼TW】|台湾I"]
+rule = ["^(【🇹🇼TW】|台湾)"]
 
 [[custom_groups]]
 name = "日本"
 type = "select"
-rule = ["【🇯🇵JP】|日本"]
+rule = ["^(【🇯🇵JP】|日本)"]
 
 [[custom_groups]]
 name = "美国"
 type = "select"
-rule = ["【🇺🇸US】|美国"]
+rule = ["^(【🇺🇸US】|美国)"]
 
 [[custom_groups]]
 name = "澳门"
 type = "select"
-rule = ["澳门"]
+rule = ["^澳门"]
 
 [[custom_groups]]
 name = "新加坡"
 type = "select"
-rule = ["狮城|新加坡"]
+rule = ["^(狮城|新加坡)"]
 
 [[custom_groups]]
 name = "英国"
 type = "select"
-rule = ["英国"]
+rule = ["^英国"]
