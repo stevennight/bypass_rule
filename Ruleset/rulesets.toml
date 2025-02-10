@@ -3,37 +3,6 @@
 group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan.list"
 
-# 功能性
-# 去广告
-[[rulesets]]
-group = "⛔️ 广告拦截"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list"
-
-# 反劫持
-[[rulesets]]
-group = "🚫 运营劫持"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hijacking/Hijacking.list"
-
-# 隐私保护
-[[rulesets]]
-group = "🚫 运营劫持"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Privacy/Privacy.list"
-
-# 知乎广告拦截
-[[rulesets]]
-group = "⛔️ 广告拦截"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ZhihuAds/ZhihuAds.list"
-
-# AdGuardSDNSFilter
-[[rulesets]]
-group = "⛔️ 广告拦截"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
-
-# BlockHttpDNS
-[[rulesets]]
-group = "🚫 运营劫持"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list"
-
 # 下载服务
 [[rulesets]]
 group = "⬇️ 下载服务"
@@ -219,6 +188,37 @@ ruleset = "[]GEOIP,CN"
 [[rulesets]]
 group = "🔰 节点选择"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list"
+
+# 功能性
+# 去广告
+[[rulesets]]
+group = "⛔️ 广告拦截"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list"
+
+# 反劫持
+[[rulesets]]
+group = "🚫 运营劫持"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hijacking/Hijacking.list"
+
+# 隐私保护
+[[rulesets]]
+group = "🚫 运营劫持"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Privacy/Privacy.list"
+
+# 知乎广告拦截
+[[rulesets]]
+group = "⛔️ 广告拦截"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ZhihuAds/ZhihuAds.list"
+
+# AdGuardSDNSFilter
+[[rulesets]]
+group = "⛔️ 广告拦截"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
+
+# BlockHttpDNS
+[[rulesets]]
+group = "🚫 运营劫持"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list"
 
 # 全局兜底
 [[rulesets]]
