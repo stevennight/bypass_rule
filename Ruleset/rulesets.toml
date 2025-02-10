@@ -200,6 +200,11 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "🌍 国内服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China.list"
 
+# ChinaCDN
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/ChinaCDN/ChinaCDN.list"
+
 # ChinaIPs
 [[rulesets]]
 group = "🌍 国内服务"

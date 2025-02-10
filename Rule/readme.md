@@ -7,4 +7,7 @@
 | Japan                                                                                   |
 |-----------------------------------------------------------------------------------------|
 | [NHK](https://github.com/stevennight/bypass_rule/tree/main/Rule/Japan/nhk)\[[.list](https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Japan/nhk/nhk.list)\] |
-| Nothing                                                                                 |
+
+| China                                                                                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [ChinaCDN](https://github.com/stevennight/bypass_rule/tree/main/Rule/China/ChinaCDN)\[[.list](https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/ChinaCDN/ChinaCDN.list)\] |
