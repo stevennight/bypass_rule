@@ -87,7 +87,7 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 # NHK
 [[rulesets]]
 group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/stevennight/bypass_rule/refs/heads/main/Rule/Japan/nhk/nhk.list"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Japan/NHK/NHK.list"
 
 # GitHub
 [[rulesets]]
@@ -132,7 +132,7 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 # Meta AI
 [[rulesets]]
 group = "🌍 美国服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/metaAi/metaAi.list"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/MetaAi/MetaAi.list"
 
 # Copilot
 [[rulesets]]
@@ -158,6 +158,16 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 [[rulesets]]
 group = "🌍 全球服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+
+# Micu Emby 国内线路
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/Micu/Micu.list"
+
+# Micu Emby 海外线路
+[[rulesets]]
+group = "🌍 全球服务"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/Micu/Micu.list"
 
 # ChinaMedia
 [[rulesets]]
