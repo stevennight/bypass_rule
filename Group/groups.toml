@@ -98,69 +98,69 @@ name = "🐟 漏网之鱼"
 type = "select"
 rule = ["[]🔰 节点选择","[]🎯 全球直连","[]香港均衡负载","[]台湾均衡负载","[]日本均衡负载","[]美国均衡负载","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
-[[custom_groups]]
-name = "香港均衡负载"
-type = "load-balance"
-rule = ["【🇭🇰HK】|香港"]
-interval = 100
-strategy = "consistent-hashing"
-url = "http://www.gstatic.com/generate_204"
-
-[[custom_groups]]
-name = "台湾均衡负载"
-type = "load-balance"
-rule = ["【🇹🇼TW】|台湾I"]
-interval = 100
-strategy = "consistent-hashing"
-url = "http://www.gstatic.com/generate_204"
-
-[[custom_groups]]
-name = "日本均衡负载"
-type = "load-balance"
-rule = ["【🇯🇵JP】|日本"]
-interval = 100
-strategy = "consistent-hashing"
-url = "http://www.gstatic.com/generate_204"
-
-[[custom_groups]]
-name = "美国均衡负载"
-type = "load-balance"
-rule = ["【🇺🇸US】|美国"]
-interval = 100
-strategy = "consistent-hashing"
-url = "http://www.gstatic.com/generate_204"
+#[[custom_groups]]
+#name = "香港均衡负载"
+#type = "load-balance"
+#rule = ["【🇭🇰HK】|香港"]
+#interval = 100
+#strategy = "consistent-hashing"
+#url = "http://www.gstatic.com/generate_204"
+#
+#[[custom_groups]]
+#name = "台湾均衡负载"
+#type = "load-balance"
+#rule = ["【🇹🇼TW】|台湾I"]
+#interval = 100
+#strategy = "consistent-hashing"
+#url = "http://www.gstatic.com/generate_204"
+#
+#[[custom_groups]]
+#name = "日本均衡负载"
+#type = "load-balance"
+#rule = ["【🇯🇵JP】|日本"]
+#interval = 100
+#strategy = "consistent-hashing"
+#url = "http://www.gstatic.com/generate_204"
+#
+#[[custom_groups]]
+#name = "美国均衡负载"
+#type = "load-balance"
+#rule = ["【🇺🇸US】|美国"]
+#interval = 100
+#strategy = "consistent-hashing"
+#url = "http://www.gstatic.com/generate_204"
 
 [[custom_groups]]
 name = "香港"
 type = "select"
-rule = ["^(【🇭🇰HK】|香港)"]
+rule = ["^(【🇭🇰HK】|香港)","[]🎯 全球直连","[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "台湾"
 type = "select"
-rule = ["^(【🇹🇼TW】|台湾)"]
+rule = ["^(【🇹🇼TW】|台湾)","[]🎯 全球直连","[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "日本"
 type = "select"
-rule = ["^(【🇯🇵JP】|日本)"]
+rule = ["^(【🇯🇵JP】|日本)","[]🎯 全球直连","[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "美国"
 type = "select"
-rule = ["^(【🇺🇸US】|美国)"]
+rule = ["^(【🇺🇸US】|美国)","[]🎯 全球直连","[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "澳门"
 type = "select"
-rule = ["^澳门"]
+rule = ["^澳门","[]🎯 全球直连","[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "新加坡"
 type = "select"
-rule = ["^(狮城|新加坡)"]
+rule = ["^(狮城|新加坡)","[]🎯 全球直连","[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "英国"
 type = "select"
-rule = ["^英国"]
+rule = ["^英国","[]🎯 全球直连","[]🔰 节点选择"]
