@@ -49,6 +49,11 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "📽️ Bilibili"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili.list"
 
+# Sharon Emby
+[[rulesets]]
+group = "📺 Sharon Emby"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/SharonEmby/SharonEmby.list"
+
 # TVB
 [[rulesets]]
 group = "🌍 香港服务"

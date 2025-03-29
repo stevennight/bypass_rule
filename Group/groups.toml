@@ -166,6 +166,11 @@ type = "select"
 rule = ["^英国","[]👌 手动故障转移"]
 
 [[custom_groups]]
+name = "📺 Sharon Emby"
+type = "select"
+rule = ["[]🎯 全球直连",".*"]
+
+[[custom_groups]]
 name = "👌 手动故障转移"
 type = "select"
 rule = ["[]🎯 全球直连",".*"]
