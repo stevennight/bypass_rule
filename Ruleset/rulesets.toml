@@ -89,6 +89,11 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "🌍 日本服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HuluJP/HuluJP.list"
 
+# Spotify
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list"
+
 # NHK
 [[rulesets]]
 group = "🌍 日本服务"
@@ -129,6 +134,16 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "🌍 美国服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"
 
+# Gemini
+[[rulesets]]
+group = "🌍 美国服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
+
+# Claude
+[[rulesets]]
+group = "🌍 美国服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list"
+
 # Jetbrains
 [[rulesets]]
 group = "🌍 美国服务"
@@ -153,6 +168,11 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 [[rulesets]]
 group = "💰 海外金融服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OKX/OKX.list"
+
+# 币安
+[[rulesets]]
+group = "💰 海外金融服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Binance/Binance.list"
 
 # PayPal
 [[rulesets]]
