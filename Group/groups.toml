@@ -133,22 +133,22 @@ rule = ["[]🔰 节点选择","[]🎯 全球直连","[]香港","[]台湾","[]日
 [[custom_groups]]
 name = "香港"
 type = "select"
-rule = ["^(【🇭🇰HK】|香港)","[]👌 手动故障转移"]
+rule = ["^(【🇭🇰HK】|香港|🇭🇰)","[]👌 手动故障转移"]
 
 [[custom_groups]]
 name = "台湾"
 type = "select"
-rule = ["^(【🇹🇼TW】|台湾)","[]👌 手动故障转移"]
+rule = ["^(【🇹🇼TW】|台湾|🇨🇳)","[]👌 手动故障转移"]
 
 [[custom_groups]]
 name = "日本"
 type = "select"
-rule = ["^(【🇯🇵JP】|日本)","[]👌 手动故障转移"]
+rule = ["^(【🇯🇵JP】|日本|🇯🇵)","[]👌 手动故障转移"]
 
 [[custom_groups]]
 name = "美国"
 type = "select"
-rule = ["^(【🇺🇸US】|美国)","[]👌 手动故障转移"]
+rule = ["^(【🇺🇸US】|美国|🇺🇸)","[]👌 手动故障转移"]
 
 [[custom_groups]]
 name = "澳门"
@@ -158,12 +158,12 @@ rule = ["^澳门","[]👌 手动故障转移"]
 [[custom_groups]]
 name = "新加坡"
 type = "select"
-rule = ["^(狮城|新加坡)","[]👌 手动故障转移"]
+rule = ["^(狮城|新加坡|🇸🇬)","[]👌 手动故障转移"]
 
 [[custom_groups]]
 name = "英国"
 type = "select"
-rule = ["^英国","[]👌 手动故障转移"]
+rule = ["^英国|🇬🇧","[]👌 手动故障转移"]
 
 [[custom_groups]]
 name = "📺 Sharon Emby"
