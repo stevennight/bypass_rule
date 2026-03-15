@@ -38,11 +38,6 @@ PROCESS-NAME,deluge-gtk
 PROCESS-NAME,deluge-console
 PROCESS-NAME,deluge-web
 
-# =====================
-# Vuze (Azureus)
-# =====================
-PROCESS-NAME,Vuze.exe
-PROCESS-NAME,vuze
 PROCESS-NAME,Azureus.exe
 PROCESS-NAME,azureus
 
@@ -50,12 +45,9 @@ PROCESS-NAME,azureus
 # 迅雷 (Thunder)
 # =====================
 PROCESS-NAME,Thunder.exe
-PROCESS-NAME,ThunderS.exe
+PROCESS-NAME,ThunderPlatform.exe
 PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,XLServicePlatform.exe
-PROCESS-NAME,XLBrowser.exe
-PROCESS-NAME,XLEngine.exe
-PROCESS-NAME,XL7Lobby.exe
 
 # =====================
 # BitComet (比特彗星)
@@ -119,8 +111,6 @@ PROCESS-NAME,emule
 PROCESS-NAME,aMule
 PROCESS-NAME,amule
 PROCESS-NAME,Shareaza.exe
-PROCESS-NAME,libtorrent
-PROCESS-NAME,rTorrent
 
 # =====================
 # Android BT 客户端 (包名)
@@ -129,9 +119,9 @@ PROCESS-NAME,com.utorrent.client
 PROCESS-NAME,com.bittorrent.client
 PROCESS-NAME,org.proninyaroslav.libretorrent
 PROCESS-NAME,com.deluge_torrent.android
-PROCESS-NAME,de.timroes.fluxmob
+PROCESS-NAME,com.delphicoder.flud
 PROCESS-NAME,com.frostwire.android
-PROCESS-NAME,com.biglybt.android
+PROCESS-NAME,com.biglybt.android.client
 PROCESS-NAME,hu.tagsoft.ttorrent.lite
 PROCESS-NAME,org.transdroid.full
 PROCESS-NAME,org.transdroid.lite

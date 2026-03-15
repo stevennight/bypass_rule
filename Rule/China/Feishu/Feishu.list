@@ -1,0 +1,24 @@
+# NAME: Feishu (飞书/Lark)
+# AUTHOR: stevennight
+# UPDATED: 2026-03-15
+# DESCRIPTION: 飞书/Lark 办公套件域名规则
+
+# 飞书主域名
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,feishu.net
+DOMAIN-SUFFIX,feishucdn.com
+DOMAIN-SUFFIX,feishupkg.com
+
+# Lark 国际版
+DOMAIN-SUFFIX,larksuite.com
+DOMAIN-SUFFIX,larkoffice.com
+DOMAIN-SUFFIX,lark-gateway.com
+DOMAIN-SUFFIX,larkso.com
+
+# 飞书相关 CDN 和服务
+DOMAIN-SUFFIX,zjurl.cn
+DOMAIN-SUFFIX,lf-cdn.com
+DOMAIN-SUFFIX,byteeffecttos.com
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,feishuprotect.com

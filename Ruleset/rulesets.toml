@@ -316,6 +316,20 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 # =====================
 # 国内服务
 # =====================
+# 钉钉
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DingTalk/DingTalk.list"
+
+# 飞书
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/Feishu/Feishu.list"
+
+# 国内网盘 (百度网盘/阿里云盘/天翼云/微云/夸克/蓝奏云等)
+[[rulesets]]
+group = "🌍 国内服务"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/CloudDrive/ChinaCloudDrive.list"
 
 # ChinaMedia
 [[rulesets]]

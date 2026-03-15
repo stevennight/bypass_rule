@@ -1,0 +1,179 @@
+# NAME: ChinaCloudDrive (国内网盘)
+# AUTHOR: stevennight
+# UPDATED: 2026-03-15
+# DESCRIPTION: 国内主流网盘/云存储服务域名规则，强制走国内直连
+# NOTE: 包含主站域名 + CDN/下载域名，确保上传下载流量不走代理
+
+# =====================
+# 百度网盘
+# =====================
+DOMAIN-SUFFIX,pan.baidu.com
+DOMAIN-SUFFIX,yun.baidu.com
+DOMAIN-SUFFIX,d.pcs.baidu.com
+DOMAIN-SUFFIX,pcs.baidu.com
+DOMAIN-SUFFIX,baidupcs.com
+# 百度网盘下载 CDN (百度云对象存储)
+DOMAIN-SUFFIX,bcebos.com
+DOMAIN-SUFFIX,baiduyun.com
+DOMAIN-SUFFIX,bdydns.com
+DOMAIN-SUFFIX,bdydns.net
+
+# =====================
+# 阿里云盘
+# =====================
+DOMAIN-SUFFIX,aliyundrive.com
+DOMAIN-SUFFIX,alipan.com
+DOMAIN-SUFFIX,alicloudccp.com
+# 阿里云盘下载 CDN
+DOMAIN-SUFFIX,aliyundrive.net
+
+# =====================
+# 天翼云盘 (中国电信)
+# =====================
+DOMAIN-SUFFIX,cloud.189.cn
+DOMAIN-SUFFIX,ctyun.cn
+DOMAIN-SUFFIX,ctyunapi.cn
+# 天翼云盘下载 CDN
+DOMAIN-SUFFIX,189data.com
+
+# =====================
+# 腾讯微云
+# =====================
+DOMAIN-SUFFIX,weiyun.com
+# 微云下载 CDN
+DOMAIN-SUFFIX,myqcloud.com
+
+# =====================
+# 夸克网盘
+# =====================
+DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX,uc.cn
+DOMAIN-SUFFIX,ucweb.com
+# 夸克下载 CDN
+
+# =====================
+# 迅雷云盘
+# =====================
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,xlpan.com
+# 迅雷下载 CDN
+DOMAIN-SUFFIX,thunderurl.com
+DOMAIN-SUFFIX,thundercdn.com
+
+# =====================
+# 蓝奏云
+# =====================
+DOMAIN-SUFFIX,lanzou.com
+DOMAIN-SUFFIX,lanzoui.com
+DOMAIN-SUFFIX,lanzoux.com
+DOMAIN-SUFFIX,lanzouq.com
+DOMAIN-SUFFIX,lanzoup.com
+DOMAIN-SUFFIX,lanzout.com
+DOMAIN-SUFFIX,lanzouv.com
+DOMAIN-SUFFIX,lanzoue.com
+DOMAIN-SUFFIX,lanzouf.com
+DOMAIN-SUFFIX,lanzoug.com
+DOMAIN-SUFFIX,lanzouo.com
+DOMAIN-SUFFIX,lanzoub.com
+DOMAIN-SUFFIX,woozooo.com
+
+# =====================
+# 123盘 (123Pan)
+# =====================
+DOMAIN-SUFFIX,123pan.com
+DOMAIN-SUFFIX,123pan.cn
+DOMAIN-SUFFIX,123panapp.com
+
+# =====================
+# 115 网盘
+# =====================
+DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,115cdn.com
+DOMAIN-SUFFIX,115cdn.net
+
+# =====================
+# 城通网盘
+# =====================
+DOMAIN-SUFFIX,ctfile.com
+DOMAIN-SUFFIX,ctcontents.com
+DOMAIN-SUFFIX,400telecom.com
+
+# =====================
+# 和彩云 (中国移动)
+# =====================
+DOMAIN-SUFFIX,caiyun.feixin.10086.cn
+DOMAIN-SUFFIX,yun.139.com
+DOMAIN-SUFFIX,cmin.mcloud.139.com
+
+# =====================
+# 坚果云
+# =====================
+DOMAIN-SUFFIX,jianguoyun.com
+DOMAIN-SUFFIX,nutstore.net
+
+# =====================
+# WPS 云盘
+# =====================
+DOMAIN-SUFFIX,kdocs.cn
+DOMAIN-SUFFIX,wps.cn
+DOMAIN-SUFFIX,wps.com
+DOMAIN-SUFFIX,kdocs.com
+# WPS CDN
+DOMAIN-SUFFIX,wpscdn.cn
+
+# =====================
+# 客户端进程名 (兜底，确保所有流量直连)
+# =====================
+
+# 百度网盘
+PROCESS-NAME,BaiduNetdisk.exe
+PROCESS-NAME,BaiduNetdisk
+PROCESS-NAME,BaiduNetdiskHost.exe
+PROCESS-NAME,com.baidu.netdisk
+
+# 阿里云盘
+PROCESS-NAME,aDrive.exe
+PROCESS-NAME,aDrive
+PROCESS-NAME,com.alicloud.databox
+
+# 天翼云盘
+PROCESS-NAME,eCloud.exe
+PROCESS-NAME,eCloud
+PROCESS-NAME,com.cn21.ecloud
+
+# 腾讯微云
+PROCESS-NAME,WeiyunGuiMain.exe
+PROCESS-NAME,com.qq.qcloud
+
+# 夸克网盘 (夸克浏览器内置)
+PROCESS-NAME,Quark.exe
+PROCESS-NAME,quark
+PROCESS-NAME,com.quark.browser
+
+# 迅雷
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,ThunderS.exe
+PROCESS-NAME,DownloadSDKServer.exe
+PROCESS-NAME,XLServicePlatform.exe
+PROCESS-NAME,com.xunlei.downloadprovider
+
+# 115 网盘
+PROCESS-NAME,115.exe
+PROCESS-NAME,115Browser.exe
+PROCESS-NAME,com.ylmf.androidclient
+
+# 123 盘
+PROCESS-NAME,123pan.exe
+PROCESS-NAME,123Pan.exe
+PROCESS-NAME,com.mfcloudcalculate.networkdisk
+
+# 坚果云
+PROCESS-NAME,Nutstore.exe
+PROCESS-NAME,nutstore.android
+
+# WPS
+PROCESS-NAME,wps.exe
+PROCESS-NAME,wpscloudlaunch.exe
+PROCESS-NAME,wpscenter.exe
+PROCESS-NAME,cn.wps.moffice_eng
