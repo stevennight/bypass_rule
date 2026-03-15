@@ -12,6 +12,11 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "🎯 全球直连"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"
 
+# BT客户端进程 (强制直连，防止P2P流量经过代理)
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/BT/BTClient.list"
+
 # 下载服务
 [[rulesets]]
 group = "⬇️ 下载服务"
@@ -90,6 +95,26 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "� 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list"
 
+# AmazonPrimeVideo
+[[rulesets]]
+group = "🎬 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list"
+
+# HBO
+[[rulesets]]
+group = "🎬 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list"
+
+# Twitch
+[[rulesets]]
+group = "🎬 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitch/Twitch.list"
+
+# TikTok (海外)
+[[rulesets]]
+group = "🎬 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list"
+
 # =====================
 # BiliBili
 # =====================
@@ -114,11 +139,21 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "🌍 香港服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ViuTV/ViuTV.list"
 
+# myTV SUPER (CableTV)
+[[rulesets]]
+group = "🌍 香港服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/CableTV/CableTV.list"
+
 # --- 台湾 ---
 # 巴哈姆特
 [[rulesets]]
 group = "🌍 台湾服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut.list"
+
+# HamiVideo
+[[rulesets]]
+group = "🌍 台湾服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HamiVideo/HamiVideo.list"
 
 # --- 日本 ---
 # AbemaTV
@@ -145,6 +180,31 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 [[rulesets]]
 group = "🌍 日本服务"
 ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Japan/NHK/NHK.list"
+
+# DMM
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DMM/DMM.list"
+
+# DAZN
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DAZN/DAZN.list"
+
+# Nikkei (日经新闻)
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nikkei/Nikkei.list"
+
+# Line
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Line/Line.list"
+
+# Rakuten (乐天)
+[[rulesets]]
+group = "🌍 日本服务"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Rakuten/Rakuten.list"
 
 # =====================
 # 全球服务

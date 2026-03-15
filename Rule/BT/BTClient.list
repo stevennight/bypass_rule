@@ -1,0 +1,137 @@
+# BT/P2P 客户端进程拦截规则
+# 强制 BT 客户端所有流量走直连，避免经过代理服务器
+
+# =====================
+# qBittorrent
+# =====================
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,qbittorrent-nox
+PROCESS-NAME,qbittorrent-nox.exe
+
+# =====================
+# BitTorrent / uTorrent (µTorrent)
+# =====================
+PROCESS-NAME,BitTorrent.exe
+PROCESS-NAME,bittorrent.exe
+PROCESS-NAME,uTorrent.exe
+PROCESS-NAME,utorrent.exe
+PROCESS-NAME,uTorrentWeb.exe
+
+# =====================
+# Transmission
+# =====================
+PROCESS-NAME,transmission-qt.exe
+PROCESS-NAME,transmission-qt
+PROCESS-NAME,transmission-gtk
+PROCESS-NAME,transmission-daemon
+PROCESS-NAME,transmission-cli
+PROCESS-NAME,Transmission
+
+# =====================
+# Deluge
+# =====================
+PROCESS-NAME,deluge.exe
+PROCESS-NAME,deluge
+PROCESS-NAME,deluged
+PROCESS-NAME,deluge-gtk
+PROCESS-NAME,deluge-console
+PROCESS-NAME,deluge-web
+
+# =====================
+# Vuze (Azureus)
+# =====================
+PROCESS-NAME,Vuze.exe
+PROCESS-NAME,vuze
+PROCESS-NAME,Azureus.exe
+PROCESS-NAME,azureus
+
+# =====================
+# 迅雷 (Thunder)
+# =====================
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,ThunderS.exe
+PROCESS-NAME,DownloadSDKServer.exe
+PROCESS-NAME,XLServicePlatform.exe
+PROCESS-NAME,XLBrowser.exe
+PROCESS-NAME,XLEngine.exe
+PROCESS-NAME,XL7Lobby.exe
+
+# =====================
+# BitComet (比特彗星)
+# =====================
+PROCESS-NAME,BitComet.exe
+PROCESS-NAME,BitCometService.exe
+PROCESS-NAME,bitcomet
+
+# =====================
+# aria2
+# =====================
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,aria2c
+
+# =====================
+# Motrix (基于 aria2)
+# =====================
+PROCESS-NAME,Motrix.exe
+PROCESS-NAME,Motrix
+
+# =====================
+# FrostWire
+# =====================
+PROCESS-NAME,FrostWire.exe
+PROCESS-NAME,frostwire
+
+# =====================
+# Tixati
+# =====================
+PROCESS-NAME,Tixati.exe
+PROCESS-NAME,tixati
+
+# =====================
+# Free Download Manager
+# =====================
+PROCESS-NAME,fdm.exe
+PROCESS-NAME,fdm
+
+# =====================
+# WebTorrent
+# =====================
+PROCESS-NAME,WebTorrent.exe
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,webtorrent
+
+# =====================
+# 其他 BT 客户端
+# =====================
+PROCESS-NAME,PicoTorrent.exe
+PROCESS-NAME,picotorrent
+PROCESS-NAME,BiglyBT.exe
+PROCESS-NAME,biglybt
+PROCESS-NAME,Halite.exe
+PROCESS-NAME,rtorrent
+PROCESS-NAME,ktorrent
+PROCESS-NAME,FlashGet.exe
+PROCESS-NAME,flashget.exe
+PROCESS-NAME,FlashGet3.exe
+PROCESS-NAME,eMule.exe
+PROCESS-NAME,emule
+PROCESS-NAME,aMule
+PROCESS-NAME,amule
+PROCESS-NAME,Shareaza.exe
+PROCESS-NAME,libtorrent
+PROCESS-NAME,rTorrent
+
+# =====================
+# Android BT 客户端 (包名)
+# =====================
+PROCESS-NAME,com.utorrent.client
+PROCESS-NAME,com.bittorrent.client
+PROCESS-NAME,org.proninyaroslav.libretorrent
+PROCESS-NAME,com.deluge_torrent.android
+PROCESS-NAME,de.timroes.fluxmob
+PROCESS-NAME,com.frostwire.android
+PROCESS-NAME,com.biglybt.android
+PROCESS-NAME,hu.tagsoft.ttorrent.lite
+PROCESS-NAME,org.transdroid.full
+PROCESS-NAME,org.transdroid.lite
