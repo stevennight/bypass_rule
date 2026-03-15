@@ -1,4 +1,4 @@
-# =====================
+﻿# =====================
 # 直连 & 基础
 # =====================
 
@@ -67,32 +67,32 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 
 # Disney
 [[rulesets]]
-group = "� 国际流媒体"
+group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list"
 
 # Youtube
 [[rulesets]]
-group = "� 国际流媒体"
+group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
 
 # YouTubeMusic
 [[rulesets]]
-group = "� 国际流媒体"
+group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
 
 # AppleMusic
 [[rulesets]]
-group = "� 国际流媒体"
+group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleMusic/AppleMusic.list"
 
 # AppleTV
 [[rulesets]]
-group = "� 国际流媒体"
+group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleTV/AppleTV.list"
 
 # Spotify
 [[rulesets]]
-group = "� 国际流媒体"
+group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list"
 
 # AmazonPrimeVideo
@@ -362,7 +362,7 @@ ruleset = "[]GEOIP,CN"
 
 # 海外IP/域名
 [[rulesets]]
-group = "� 节点选择"
+group = "🔰 节点选择"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list"
 
 # 全局兜底
