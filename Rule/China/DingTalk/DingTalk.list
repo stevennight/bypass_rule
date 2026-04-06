@@ -1,0 +1,12 @@
+# NAME: DingTalk (钉钉)
+# AUTHOR: stevennight
+# UPDATED: 2026-04-06
+# DESCRIPTION: 钉钉/DingTalk 办公套件域名规则
+
+# 钉钉主域名
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dingtalk.cn
+
+# 客户端进程
+PROCESS-NAME,DingTalk.exe
+PROCESS-NAME,DingTalkUpdater.exe

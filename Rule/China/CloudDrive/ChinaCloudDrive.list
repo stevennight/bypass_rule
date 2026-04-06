@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,yun.baidu.com
 DOMAIN-SUFFIX,d.pcs.baidu.com
 DOMAIN-SUFFIX,pcs.baidu.com
 DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,baidupcs.com.cn
 # 百度网盘下载 CDN (百度云对象存储)
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,baiduyun.com
@@ -47,6 +48,7 @@ DOMAIN-SUFFIX,myqcloud.com
 # 夸克网盘
 # =====================
 DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX,quark.com
 DOMAIN-SUFFIX,uc.cn
 DOMAIN-SUFFIX,ucweb.com
 # 夸克下载 CDN
@@ -89,6 +91,8 @@ DOMAIN-SUFFIX,123panapp.com
 # 115 网盘
 # =====================
 DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,115.net
+DOMAIN-SUFFIX,anxia.com
 DOMAIN-SUFFIX,115cdn.com
 DOMAIN-SUFFIX,115cdn.net
 
@@ -134,6 +138,7 @@ PROCESS-NAME,com.baidu.netdisk
 
 # 阿里云盘
 PROCESS-NAME,aDrive.exe
+PROCESS-NAME,aliyundrive.exe
 PROCESS-NAME,aDrive
 PROCESS-NAME,com.alicloud.databox
 
@@ -159,8 +164,9 @@ PROCESS-NAME,XLServicePlatform.exe
 PROCESS-NAME,com.xunlei.downloadprovider
 
 # 115 网盘
-PROCESS-NAME,115.exe
-PROCESS-NAME,115Browser.exe
+PROCESS-NAME,115search.exe
+PROCESS-NAME,115Player.exe
+PROCESS-NAME,115chrome.exe
 PROCESS-NAME,com.ylmf.androidclient
 
 # 123 盘

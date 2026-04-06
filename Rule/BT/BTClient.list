@@ -125,3 +125,10 @@ PROCESS-NAME,com.biglybt.android.client
 PROCESS-NAME,hu.tagsoft.ttorrent.lite
 PROCESS-NAME,org.transdroid.full
 PROCESS-NAME,org.transdroid.lite
+
+# =====================
+# Tracker & BT Ports
+# =====================
+DOMAIN-KEYWORD,tracker
+DST-PORT,6881-6889
+DST-PORT,51413
