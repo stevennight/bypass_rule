@@ -1,376 +1,376 @@
-# =====================
-# 直连 & 基础
-# =====================
+#=====================
+#直连&基础
+#=====================
 
-# 本地局域网地址
+#本地局域网地址
 [[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan.list"
+group="全球直连"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan.list"
 
-# PT下载 (强制直连)
+#PT下载(强制直连)
 [[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"
+group="全球直连"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"
 
-# BT客户端进程 (强制直连，防止P2P流量经过代理)
+#BT客户端进程(强制直连，防止P2P流量经过代理)
 [[rulesets]]
-group = "🎯 全球直连"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/BT/BTClient.list"
+group="全球直连"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/BT/BTClient.list"
 
-# 下载服务
+#下载服务
 [[rulesets]]
-group = "⬇️ 下载服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list"
+group="下载服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list"
 
-# =====================
-# 广告拦截 & 隐私保护
-# =====================
+#=====================
+#广告拦截&隐私保护
+#=====================
 
-# 去广告
+#去广告
 [[rulesets]]
-group = "⛔️ 广告拦截"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list"
+group="广告拦截"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list"
 
-# AdGuardSDNSFilter
+#AdGuardSDNSFilter
 [[rulesets]]
-group = "⛔️ 广告拦截"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
+group="广告拦截"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
 
-# 知乎广告拦截
+#知乎广告拦截
 [[rulesets]]
-group = "⛔️ 广告拦截"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ZhihuAds/ZhihuAds.list"
+group="广告拦截"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ZhihuAds/ZhihuAds.list"
 
-# 反劫持
+#反劫持
 [[rulesets]]
-group = "🚫 运营劫持"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hijacking/Hijacking.list"
+group="运营劫持"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hijacking/Hijacking.list"
 
-# 隐私保护
+#隐私保护
 [[rulesets]]
-group = "🚫 运营劫持"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Privacy/Privacy.list"
+group="运营劫持"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Privacy/Privacy.list"
 
-# BlockHttpDNS
+#BlockHttpDNS
 [[rulesets]]
-group = "🚫 运营劫持"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list"
+group="运营劫持"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list"
 
-# =====================
-# 国际流媒体
-# =====================
+#=====================
+#国际流媒体
+#=====================
 
-# Netflix
+#Netflix
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Netflix/Netflix.list"
 
-# Disney
+#Disney
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list"
 
-# Youtube
+#Youtube
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
 
-# YouTubeMusic
+#YouTubeMusic
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
 
-# AppleMusic
+#AppleMusic
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleMusic/AppleMusic.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleMusic/AppleMusic.list"
 
-# AppleTV
+#AppleTV
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleTV/AppleTV.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleTV/AppleTV.list"
 
-# Spotify
+#Spotify
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list"
 
-# AmazonPrimeVideo
+#AmazonPrimeVideo
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list"
 
-# HBO
+#HBO
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list"
 
-# Twitch
+#Twitch
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitch/Twitch.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitch/Twitch.list"
 
-# TikTok (海外)
+#TikTok(海外)
 [[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list"
+group="国际流媒体"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list"
 
-# =====================
-# BiliBili
-# =====================
+#=====================
+#BiliBili
+#=====================
 
-# BiliBili
+#BiliBili
 [[rulesets]]
-group = "📽️ Bilibili"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili.list"
+group="Bilibili"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili.list"
 
-# =====================
-# 地区锁定服务
-# =====================
+#=====================
+#地区锁定服务
+#=====================
 
-# --- 香港 ---
-# TVB
+#---香港---
+#TVB
 [[rulesets]]
-group = "🌍 香港服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVB/TVB.list"
+group="香港服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVB/TVB.list"
 
-# ViuTV
+#ViuTV
 [[rulesets]]
-group = "🌍 香港服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ViuTV/ViuTV.list"
+group="香港服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ViuTV/ViuTV.list"
 
-# myTV SUPER (CableTV)
+#myTVSUPER(CableTV)
 [[rulesets]]
-group = "🌍 香港服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/CableTV/CableTV.list"
+group="香港服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/CableTV/CableTV.list"
 
-# --- 台湾 ---
-# 巴哈姆特
+#---台湾---
+#巴哈姆特
 [[rulesets]]
-group = "🌍 台湾服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut.list"
+group="台湾服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut.list"
 
-# HamiVideo
+#HamiVideo
 [[rulesets]]
-group = "🌍 台湾服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HamiVideo/HamiVideo.list"
+group="台湾服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HamiVideo/HamiVideo.list"
 
-# --- 日本 ---
-# AbemaTV
+#---日本---
+#AbemaTV
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AbemaTV/AbemaTV.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AbemaTV/AbemaTV.list"
 
-# Niconico
+#Niconico
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Niconico/Niconico.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Niconico/Niconico.list"
 
-# TVer
+#TVer
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer.list"
 
-# HuluJP
+#HuluJP
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HuluJP/HuluJP.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HuluJP/HuluJP.list"
 
-# NHK
+#NHK
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Japan/NHK/NHK.list"
+group="日本服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Japan/NHK/NHK.list"
 
-# DMM
+#DMM
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DMM/DMM.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DMM/DMM.list"
 
-# DAZN
+#DAZN
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DAZN/DAZN.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DAZN/DAZN.list"
 
-# Nikkei (日经新闻)
+#Nikkei(日经新闻)
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nikkei/Nikkei.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nikkei/Nikkei.list"
 
-# Line
+#Line
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Line/Line.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Line/Line.list"
 
-# Rakuten (乐天)
+#Rakuten(乐天)
 [[rulesets]]
-group = "🌍 日本服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Rakuten/Rakuten.list"
+group="日本服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Rakuten/Rakuten.list"
 
-# =====================
-# 全球服务
-# =====================
+#=====================
+#全球服务
+#=====================
 
-# GitHub
+#GitHub
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list"
 
-# Copilot
+#Copilot
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list"
 
-# OneDrive
+#OneDrive
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OneDrive/OneDrive.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OneDrive/OneDrive.list"
 
-# Microsoft
+#Microsoft
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list"
 
-# Teams
+#Teams
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Teams/Teams.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Teams/Teams.list"
 
-# MicrosoftEdge
+#MicrosoftEdge
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.list"
 
-# 必应
+#必应
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list"
 
-# Telegram
+#Telegram
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram.list"
 
-# GlobalMedia (兜底海外媒体)
+#GlobalMedia(兜底海外媒体)
 [[rulesets]]
-group = "🌍 全球服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+group="全球服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list"
 
-# =====================
-# 美国服务
-# =====================
+#=====================
+#美国服务
+#=====================
 
-# OpenAI
+#OpenAI
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"
+group="美国服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"
 
-# Gemini
+#Gemini
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
+group="美国服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
 
-# Google (自定义)
+#Google(自定义)
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/America/Google/Google.list"
+group="美国服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/America/Google/Google.list"
 
-# Google
+#Google
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list"
+group="美国服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list"
 
-# Claude
+#Claude
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list"
+group="美国服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list"
 
-# Jetbrains
+#Jetbrains
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Jetbrains/Jetbrains.list"
+group="美国服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Jetbrains/Jetbrains.list"
 
-# Meta AI
+#MetaAI
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/MetaAi/MetaAi.list"
+group="美国服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/Global/MetaAi/MetaAi.list"
 
-# Crunchyroll
+#Crunchyroll
 [[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/America/Crunchyroll/Crunchyroll.list"
+group="美国服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/America/Crunchyroll/Crunchyroll.list"
 
-# =====================
-# 海外金融服务
-# =====================
+#=====================
+#海外金融服务
+#=====================
 
-# OKX交易所
+#OKX交易所
 [[rulesets]]
-group = "💰 海外金融服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OKX/OKX.list"
+group="海外金融服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OKX/OKX.list"
 
-# 币安
+#币安
 [[rulesets]]
-group = "💰 海外金融服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Binance/Binance.list"
+group="海外金融服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Binance/Binance.list"
 
-# PayPal
+#PayPal
 [[rulesets]]
-group = "💰 海外金融服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal.list"
+group="海外金融服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal.list"
 
-# =====================
-# 国内服务
-# =====================
-# 钉钉
+#=====================
+#国内服务
+#=====================
+#钉钉
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DingTalk/DingTalk.list"
+group="国内服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DingTalk/DingTalk.list"
 
-# 飞书
+#飞书
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/Feishu/Feishu.list"
+group="国内服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/Feishu/Feishu.list"
 
-# 国内网盘 (百度网盘/阿里云盘/天翼云/微云/夸克/蓝奏云等)
+#国内网盘(百度网盘/阿里云盘/天翼云/微云/夸克/蓝奏云等)
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/CloudDrive/ChinaCloudDrive.list"
+group="国内服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/CloudDrive/ChinaCloudDrive.list"
 
-# ChinaMedia
+#ChinaMedia
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+group="国内服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMedia/ChinaMedia.list"
 
-# China
+#China
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China.list"
+group="国内服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China.list"
 
-# ChinaCDN
+#ChinaCDN
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/ChinaCDN/ChinaCDN.list"
+group="国内服务"
+ruleset="https://github.com/stevennight/bypass_rule/raw/refs/heads/main/Rule/China/ChinaCDN/ChinaCDN.list"
 
-# ChinaIPs
+#ChinaIPs
 [[rulesets]]
-group = "🌍 国内服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPs/ChinaIPs.list"
+group="国内服务"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPs/ChinaIPs.list"
 
-# 国内IP
+#国内IP
 [[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,CN"
+group="全球直连"
+ruleset="[]GEOIP,CN"
 
-# =====================
-# 兜底规则
-# =====================
+#=====================
+#兜底规则
+#=====================
 
-# 海外IP/域名
+#海外IP/域名
 [[rulesets]]
-group = "🔰 节点选择"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list"
+group="节点选择"
+ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list"
 
-# 全局兜底
+#全局兜底
 [[rulesets]]
-group = "🐟 漏网之鱼"
-ruleset = "[]FINAL"
+group="漏网之鱼"
+ruleset="[]FINAL"
