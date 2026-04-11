@@ -142,3 +142,6 @@ DST-PORT,6887
 DST-PORT,6888
 DST-PORT,6889
 DST-PORT,51413
+
+# 修复 Subconverter 不输出 RULE-SET 的 Bug 专用的占位域名
+DOMAIN-SUFFIX,subconverter-dummy.local
