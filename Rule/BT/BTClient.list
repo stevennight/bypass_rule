@@ -1,4 +1,4 @@
-# NAME: BTClient
+﻿# NAME: BTClient
 # UPDATED: 2026-04-12
 # BT/P2P 客户端进程拦截规则
 # 强制 BT 客户端所有流量走直连，避免经过代理服务器
@@ -142,6 +142,3 @@ DST-PORT,6887
 DST-PORT,6888
 DST-PORT,6889
 DST-PORT,51413
-
-# 修复 Subconverter 不输出 RULE-SET 的 Bug 专用的占位域名
-DOMAIN-SUFFIX,subconverter-dummy.local
