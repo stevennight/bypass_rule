@@ -1,164 +1,160 @@
 [[custom_groups]]
-name = "🔰 节点选择"
-type = "select"
-rule = ["[]🎯 全球直连","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="节点选择"
+type="select"
+rule=["[]全球直连","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
-# ---- 流媒体 ----
-
-[[custom_groups]]
-name = "🎬 国际流媒体"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+#----流媒体----
 
 [[custom_groups]]
-name = "📽️ Bilibili"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
-
-# ---- 地区/类型服务 ----
+name="国际流媒体"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "🌍 全球服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="Bilibili"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+
+#----地区/类型服务----
 
 [[custom_groups]]
-name = "🔍 Google"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="全球服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "🌍 美国服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="美国服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "🌍 日本服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="日本服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "🌍 香港服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="香港服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "🌍 台湾服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="台湾服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "🌍 国内服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="国内服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "💰 海外金融服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="海外金融服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
 [[custom_groups]]
-name = "⬇️ 下载服务"
-type = "select"
-rule = ["[]🎯 全球直连","[]🔰 节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="下载服务"
+type="select"
+rule=["[]全球直连","[]节点选择","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
 
-# ---- 功能性 ----
-
-[[custom_groups]]
-name = "🎯 全球直连"
-type = "select"
-rule = ["[]DIRECT"]
+#----功能性----
 
 [[custom_groups]]
-name = "⛔️ 广告拦截"
-type = "select"
-rule = ["[]🛑 全球拦截","[]🎯 全球直连","[]🔰 节点选择"]
+name="全球直连"
+type="select"
+rule=["[]DIRECT"]
 
 [[custom_groups]]
-name = "🚫 运营劫持"
-type = "select"
-rule = ["[]🛑 全球拦截","[]🎯 全球直连","[]🔰 节点选择"]
+name="广告拦截"
+type="select"
+rule=["[]全球拦截","[]全球直连","[]节点选择"]
 
 [[custom_groups]]
-name = "🛑 全球拦截"
-type = "select"
-rule = ["[]REJECT", "[]DIRECT"]
+name="运营劫持"
+type="select"
+rule=["[]全球拦截","[]全球直连","[]节点选择"]
 
 [[custom_groups]]
-name = "🐟 漏网之鱼"
-type = "select"
-rule = ["[]🔰 节点选择","[]🎯 全球直连","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+name="全球拦截"
+type="select"
+rule=["[]REJECT","[]DIRECT"]
 
-# ---- 地区节点 ----
+[[custom_groups]]
+name="漏网之鱼"
+type="select"
+rule=["[]节点选择","[]全球直连","[]香港","[]台湾","[]日本","[]美国","[]澳门","[]新加坡","[]英国",".*"]
+
+#----地区节点----
 
 #[[custom_groups]]
-#name = "香港均衡负载"
-#type = "load-balance"
-#rule = ["【🇭🇰HK】|香港"]
-#interval = 100
-#strategy = "consistent-hashing"
-#url = "http://www.gstatic.com/generate_204"
+#name="香港均衡负载"
+#type="load-balance"
+#rule=["【🇭🇰HK】|香港"]
+#interval=100
+#strategy="consistent-hashing"
+#url="http://www.gstatic.com/generate_204"
 #
 #[[custom_groups]]
-#name = "台湾均衡负载"
-#type = "load-balance"
-#rule = ["【🇹🇼TW】|台湾I"]
-#interval = 100
-#strategy = "consistent-hashing"
-#url = "http://www.gstatic.com/generate_204"
+#name="台湾均衡负载"
+#type="load-balance"
+#rule=["【🇹🇼TW】|台湾I"]
+#interval=100
+#strategy="consistent-hashing"
+#url="http://www.gstatic.com/generate_204"
 #
 #[[custom_groups]]
-#name = "日本均衡负载"
-#type = "load-balance"
-#rule = ["【🇯🇵JP】|日本"]
-#interval = 100
-#strategy = "consistent-hashing"
-#url = "http://www.gstatic.com/generate_204"
+#name="日本均衡负载"
+#type="load-balance"
+#rule=["【🇯🇵JP】|日本"]
+#interval=100
+#strategy="consistent-hashing"
+#url="http://www.gstatic.com/generate_204"
 #
 #[[custom_groups]]
-#name = "美国均衡负载"
-#type = "load-balance"
-#rule = ["【🇺🇸US】|美国"]
-#interval = 100
-#strategy = "consistent-hashing"
-#url = "http://www.gstatic.com/generate_204"
+#name="美国均衡负载"
+#type="load-balance"
+#rule=["【🇺🇸US】|美国"]
+#interval=100
+#strategy="consistent-hashing"
+#url="http://www.gstatic.com/generate_204"
 
 [[custom_groups]]
-name = "香港"
-type = "select"
-rule = ["(【🇭🇰HK】|香港|🇭🇰)","[]👌 手动故障转移"]
+name="香港"
+type="select"
+rule=["(【🇭🇰HK】|香港|🇭🇰)","[]手动故障转移"]
 
 [[custom_groups]]
-name = "台湾"
-type = "select"
-rule = ["(【🇹🇼TW】|台湾|🇨🇳)","[]👌 手动故障转移"]
+name="台湾"
+type="select"
+rule=["(【🇹🇼TW】|台湾|🇨🇳)","[]手动故障转移"]
 
 [[custom_groups]]
-name = "日本"
-type = "select"
-rule = ["(【🇯🇵JP】|日本|🇯🇵)","[]👌 手动故障转移"]
+name="日本"
+type="select"
+rule=["(【🇯🇵JP】|日本|🇯🇵)","[]手动故障转移"]
 
 [[custom_groups]]
-name = "美国"
-type = "select"
-rule = ["(【🇺🇸US】|美国|🇺🇸)","[]👌 手动故障转移"]
+name="美国"
+type="select"
+rule=["(【🇺🇸US】|美国|🇺🇸)","[]手动故障转移"]
 
 [[custom_groups]]
-name = "澳门"
-type = "select"
-rule = ["澳门","[]👌 手动故障转移"]
+name="澳门"
+type="select"
+rule=["澳门","[]手动故障转移"]
 
 [[custom_groups]]
-name = "新加坡"
-type = "select"
-rule = ["(狮城|新加坡|🇸🇬)","[]👌 手动故障转移"]
+name="新加坡"
+type="select"
+rule=["(狮城|新加坡|🇸🇬)","[]手动故障转移"]
 
 [[custom_groups]]
-name = "英国"
-type = "select"
-rule = ["英国|🇬🇧","[]👌 手动故障转移"]
+name="英国"
+type="select"
+rule=["英国|🇬🇧","[]手动故障转移"]
 
 [[custom_groups]]
-name = "👌 手动故障转移"
-type = "select"
-rule = ["[]🎯 全球直连",".*"]
+name="手动故障转移"
+type="select"
+rule=["[]全球直连",".*"]
+
