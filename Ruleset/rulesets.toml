@@ -313,6 +313,11 @@ ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/hea
 group="海外金融服务"
 ruleset="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Binance/Binance.list"
 
+#Bybit
+[[rulesets]]
+group="海外金融服务"
+ruleset="https://raw.githubusercontent.com/stevennight/bypass_rule/main/Rule/Global/Bybit/Bybit.list"
+
 #PayPal
 [[rulesets]]
 group="海外金融服务"
