@@ -70,16 +70,6 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 group = "🎬 国际流媒体"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list"
 
-# Youtube
-[[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
-
-# YouTubeMusic
-[[rulesets]]
-group = "🎬 国际流媒体"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
-
 # AppleMusic
 [[rulesets]]
 group = "🎬 国际流媒体"
@@ -256,6 +246,30 @@ group = "🌍 全球服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list"
 
 # =====================
+# Google 全家桶 (统一出口防风控)
+# =====================
+
+# Youtube
+[[rulesets]]
+group = "🔍 Google"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
+
+# YouTubeMusic
+[[rulesets]]
+group = "🔍 Google"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
+
+# Gemini
+[[rulesets]]
+group = "🔍 Google"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
+
+# Google
+[[rulesets]]
+group = "🔍 Google"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list"
+
+# =====================
 # 美国服务
 # =====================
 
@@ -263,16 +277,6 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/h
 [[rulesets]]
 group = "🌍 美国服务"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"
-
-# Gemini
-[[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
-
-# Google
-[[rulesets]]
-group = "🌍 美国服务"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list"
 
 # Claude
 [[rulesets]]
