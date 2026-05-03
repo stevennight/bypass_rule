@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytednsdoc.com
 DOMAIN-SUFFIX,feishuprotect.com
+
+# 客户端进程
+PROCESS-NAME,Feishu.exe
